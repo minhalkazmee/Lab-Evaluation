@@ -1,19 +1,7 @@
-Here's the revised version with bold and larger headings:  
 
 ---
 
 # **Implementation of Stack and Queue Using Linked List**  
-
-## **Submitted By**  
-**Name:** Syed Minhal Shahid Shah  
-**Father's Name:** Shahid Ali Shah  
-**Section:** A  
-**BSCS:** Evening  
-🔗 Connect with me on LinkedIn: [Syed Minhal Shahid Shah](www.linkedin.com/in/syed-minhal-shahid-shah-343719339)
-
-
-## **Submitted To**  
-**Mr. Tajmir Khan**  
 
 ---
 
@@ -81,6 +69,16 @@ A queue operates on the FIFO (First-In, First-Out) principle, where elements are
 - **Peek:** O(1)  
 
 ---
+## **Submitted By**  
+**Name:** Syed Minhal Shahid Shah  
+**Father's Name:** Shahid Ali Shah  
+**Section:** A  
+**BSCS:** Evening  
+🔗 Connect with me on LinkedIn: [Syed Minhal Shahid Shah](www.linkedin.com/in/syed-minhal-shahid-shah-343719339)
+
+
+## **Submitted To**  
+**Mr. Tajmir Khan**  
 
 ## **Note**  
 To view my LinkedIn post, click [here](www.linkedin.com/in/syed-minhal-shahid-shah-343719339) and go to the activity section.  
