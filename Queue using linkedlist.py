@@ -1,35 +1,38 @@
+# Node class to represent each element in the queue
 class Node:
     def __init__(self, value):
         self.value = value
         self.next = None
+
+# Queue class to manage queue operations
 class Queue:
     def __init__(self):
         self.front = None  # Points to the front of the queue
         self.rear = None   # Points to the rear of the queue
         self.size = 0      # Keeps track of the queue size
 
-    # Add an item to the queue
-    def enqueue(self, value):
-        new_node = Node(value)
-        if self.rear:  # If queue is not empty
+    # Add an element to the rear of the queue
+    def enqueue(self, element):
+        new_node = Node(element)
+        if self.rear:  # If the queue is not empty
             self.rear.next = new_node
         self.rear = new_node
         if self.front is None:  # If the queue was empty
             self.front = new_node
         self.size += 1
 
-    # Remove and return the front item from the queue
+    # Remove and return the element from the front of the queue
     def dequeue(self):
         if self.isEmpty():
             return "Queue is empty"
         dequeued_node = self.front
         self.front = self.front.next
-        if self.front is None:  # If the queue is empty after dequeue
+        if self.front is None:  # If the queue becomes empty after dequeue
             self.rear = None
         self.size -= 1
         return dequeued_node.value
 
-    # Return the front item without removing it
+    # Return the front element without removing it
     def peek(self):
         if self.isEmpty():
             return "Queue is empty"
@@ -39,11 +42,11 @@ class Queue:
     def isEmpty(self):
         return self.size == 0
 
-    # Get the current queue size
-    def queueSize(self):
+    # Return the current size of the queue
+    def size(self):
         return self.size
 
-    # Display the entire queue
+    # Display all elements in the queue from front to rear
     def displayQueue(self):
         if self.isEmpty():
             print("Queue is empty")
@@ -53,16 +56,38 @@ class Queue:
             print(current.value, end=" ")
             current = current.next
         print()
+
 # Create a queue and test the methods
 myQueue = Queue()
+
+# Test enqueuing elements
 myQueue.enqueue('A')
 myQueue.enqueue('B')
 myQueue.enqueue('C')
 
-print("Queue: ", end="")  # Use displayQueue to show the queue
+# Display the queue
+print("Queue: ", end="")
 myQueue.displayQueue()
 
+# Test dequeue operation
 print("Dequeue: ", myQueue.dequeue())  # Dequeue and show front item
+
+# Test peek operation
 print("Peek: ", myQueue.peek())  # Show front item without removing it
+
+# Check if the queue is empty
 print("isEmpty: ", myQueue.isEmpty())  # Check if queue is empty
-print("Size: ", myQueue.queueSize())  # Show current queue size
+
+# Show the current size of the queue
+print("Size: ", myQueue.size())  # Show current queue size
+
+# Display the queue again
+print("Queue after dequeue: ", end="")
+myQueue.displayQueue()
+
+# Test dequeue the rest of the queue
+print("Dequeue: ", myQueue.dequeue())
+print("Dequeue: ", myQueue.dequeue())
+
+# Check if the queue is empty again
+print("isEmpty after dequeues: ", myQueue.isEmpty())  # Should be True now
