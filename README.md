@@ -9,8 +9,8 @@ Here's the revised version with bold and larger headings:
 **Father's Name:** Shahid Ali Shah  
 **Section:** A  
 **BSCS:** Evening  
-LinkedIn Profile: [Syed Minhal Shahid Shah]  (www.linkedin.com/in/syed-minhal-shahid-shah-343719339)
-**LinkedIn Profile/Post:** [Syed Minhal Shahid Shah]  (https://www.linkedin.com/posts/syed-minhal-shahid-shah-343719339_github-minhalkazmeelab-evaluation-activity-7286372856085598210-o8CV?utm_source=share&utm_medium=member_desktop)
+LinkedIn Profile: [Syed Minhal Shahid Shah](www.linkedin.com/in/syed-minhal-shahid-shah-343719339)
+
 
 ## **Submitted To**  
 **Mr. Tajmir Khan**  
