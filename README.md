@@ -9,7 +9,7 @@ Here's the revised version with bold and larger headings:
 **Father's Name:** Shahid Ali Shah  
 **Section:** A  
 **BSCS:** Evening  
-LinkedIn Profile: [Syed Minhal Shahid Shah](www.linkedin.com/in/syed-minhal-shahid-shah-343719339)
+🔗 Connect with me on LinkedIn: [Syed Minhal Shahid Shah](www.linkedin.com/in/syed-minhal-shahid-shah-343719339)
 
 
 ## **Submitted To**  
